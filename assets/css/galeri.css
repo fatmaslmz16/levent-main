@@ -2,7 +2,7 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root{
-   
+
    --first-color: hsl(82, 60%, 28%);
    --title-color: hsl(0, 0%, 15%);
    --text-color: hsl(0, 0%, 35%);
@@ -21,7 +21,7 @@
         --h2-font-size: 1.5rem;
         --small-font-size: .875rem;
     }
-  
+
    }
 
 *{
@@ -48,7 +48,7 @@ img{
     margin-inline: 1.5rem;
     padding-block: 5rem;
  }
- 
+
  .card__ontainer{
        display: grid;
        row-gap: 3.5rem;
@@ -92,12 +92,12 @@ img{
        font-weight: 500;
        color: var(--first-color);
     }
- 
+
        .card__button:hover{
           text-decoration: underline;
        }
-    
-  
+
+
     .card__article:hover  .card__data{
        animation: show-data 1s forwards;
        opacity: 1;
@@ -113,7 +113,7 @@ img{
        animation: remove-data 1s forwards;
     }
 
- 
+
  /* Card animation */
  @keyframes show-data{
     50%{
@@ -123,13 +123,13 @@ img{
        transform: translateY(-7rem);
     }
  }
- 
+
  @keyframes remove-overflow{
     to{
        overflow: initial;
     }
  }
- 
+
  @keyframes remove-data{
     0%{
        transform: translateY(-7rem);
@@ -141,7 +141,7 @@ img{
        transform: translateY(.5rem);
     }
  }
- 
+
  @keyframes show-overflow{
     0%{
        overflow: initial;
@@ -156,13 +156,13 @@ img{
     .container{
        margin-inline: 1rem;
     }
- 
+
     .card__data{
        width: 250px;
        padding: 1rem;
     }
  }
- 
+
  /* For medium devices */
  @media screen and (min-width: 768px){
     .card__container{
@@ -170,13 +170,13 @@ img{
        column-gap: 1.5rem;
     }
  }
- 
+
  /* For large devices */
  @media screen and (min-width: 1120px){
     .container{
        height: 100vh;
     }
- 
+
     .card{
        container{
           grid-template-columns: repeat(3, 1fr);
@@ -190,4 +190,3 @@ img{
        }
     }
 }
- 
