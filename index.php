@@ -22,25 +22,13 @@
             <div class="slider">
                 <div class="slider-item fade">
                     <img src="assets/img/1.jpg" alt="">
-                    <div class="caption">Lorem ipsum dolor sit amet.</div>
                 </div>
                 <div class="slider-item fade">
                     <img src="assets/img/2.png" alt="">
-                    <div class="caption">Lorem ipsum Lorem, ipsum.</div>
                 </div>
                 <div class="slider-item fade">
                     <img src="assets/img/3.png" alt="">
-                    <div class="caption">Lorem ipsum </div>
                 </div>
-
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <br>
-            <div style="text-align: center;">
-                <span class="dot" onclick="currentSlides(1)"></span>
-                <span class="dot" onclick="currentSlides(2)"></span>
-                <span class="dot" onclick="currentSlides(3)"></span>
             </div>
         </div>
 
@@ -50,12 +38,12 @@
           <img src="assets/img/hakkimizda.png" alt="profile" />
         </div>
         <div class="content">
-       
+
           <h1 class="title">
-         <span>HAKKIMIZDA</span> 
+         <span>HAKKIMIZDA</span>
           </h1>
           <p class="description">
-          Çatı İhtisası Hakkında Çatı İhtisası İnşaat Ticaret Taahhüt firması 1978 yılında Konya’da Mustafa SAMUR tarafından kurulmuştur. 
+          Çatı İhtisası Hakkında Çatı İhtisası İnşaat Ticaret Taahhüt firması 1978 yılında Konya’da Mustafa SAMUR tarafından kurulmuştur.
                     Firmanın kuruluş amacı çatı kaplama, cephe kaplama, kenet çatı sistemleri, dış cephe giydirme sistemleri, mantolama izolasyon sistemleri, ısı-su-ses yalıtım sistemleri satış, uygulama ve danışmanlık hizmetlerini sunmaktır. Misyonumuz;
                     İnşaat sektöründe projelerde yüksek kalite , sorunsuz usta ve kadro, yenilikçi çözümler, kaliteli hizmet ve en üst seviye müşteri memnuniyetini hedefleyen ileri teknoloji çözümleri geliştirmek ve sunmaktır.
                      Vizyonumuz; İnşaat alanında ...
@@ -64,12 +52,12 @@
             <button class="portfolio">İletişime Geç</button>
           </div>
         </div>
-      
+
       </div>
     </section>
 
         <div class="form-area">
-          
+
             <div class="form">
                 <h3 class="offer-title">Teklif Formu Gönder</h3>
                 <p>Bilgi almak için formu doldurun, sizinle iletişime geçelim</p>
@@ -135,12 +123,14 @@
       </div>
     </section>
 
-    
+
 
     <?php
     include "templates/footer.html";
     ?>
 
     <script src="assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/js/services.js"></script>
 </body>
 </html>

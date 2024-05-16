@@ -82,11 +82,6 @@ header .navbar ul li ul li{
     border-top: 1px solid rgba(0,0,0,.1);
 }
 
-/* header .navbar ul li ul li ul{
-    left: 200px;
-    top: 0;
-} */
-
 header .navbar ul li:hover > ul{
     display:initial;
 }
@@ -312,55 +307,6 @@ footer {
     height: 100%;
 }
 
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: var(--white);
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,.5);
-}
-
-.caption {
-    color: var(--white);
-    font-size: 30px;
-    padding: 8px 12px;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    bottom: 8px;
-}
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.dot.active, .dot:hover {
-    background-color: #717171;
-}
-
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -370,9 +316,6 @@ footer {
     from {opacity: .4;}
     to {opacity: 1;}
 }
-
-
-
 
 
 /* Form */
@@ -391,7 +334,7 @@ footer {
 .form-info {
     width: 50%;
     height: 100%;
-    
+
 }
 .form-info .teklif{
     flex: 1;
@@ -399,10 +342,10 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  
+
   }
   .form-info .teklif img{
-    max-width: 500px;
+    max-width: 100%;
     height: 700px;
   }
 
@@ -734,17 +677,6 @@ textarea {
 
     #menu-bar:checked ~ .navbar{
     display:initial ;
-    }
-
-
-    /* Slider */
-
-    /* .slider-container{
-        height: 150px;
-    } */
-
-    .caption {
-        font-size: 24px;
     }
 
 
